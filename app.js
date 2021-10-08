@@ -12,5 +12,6 @@ const generateButton = document.getElementById('generate');
 
 generateButton.addEventListener('click', () => {
    // console.log('click');
-
+   let randomNum = Math.floor(Math.random() * 100);
+   result.textContent = randomNum;
 })
